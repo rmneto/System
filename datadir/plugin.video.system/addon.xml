@@ -2,6 +2,8 @@
 <addon id="plugin.video.system" name="System" version="0.0.1" provider-name="Netpac">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
+	<import addon="script.module.t0mm0.common"/>
+	<import addon="script.module.requests"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="resources/lib/main.py">
     <provides>video</provides>
