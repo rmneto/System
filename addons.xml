@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-  <addon id="plugin.video.system" name="System" version="0.0.17" provider-name="Netpac">
+  <addon id="plugin.video.system" name="System" version="0.0.18" provider-name="Netpac">
     <requires>
       <import addon="xbmc.python" version="2.1.0"/>
     </requires>
