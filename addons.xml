@@ -4,7 +4,7 @@
     <requires>
       <import addon="xbmc.python" version="3.0.0"/>
       <import addon="script.module.requests" />
-      <import addon="script.module.cloudscraper"/>
+      <import addon="script.module.cloudscraper" version="1.2.60"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="resources/lib/main.py">
       <provides>video</provides>
@@ -13,11 +13,8 @@
       <language>en</language>
       <platform>all</platform>
       <summary lang="en">System Support</summary>
-      <summary lang="pt">Supporte de Systema</summary>
       <description lang="en"></description>
-      <description lang="pt"></description>
       <disclaimer lang="en"></disclaimer>
-      <disclaimer lang="pt"></disclaimer>
       <platform>all</platform>
     </extension>
   </addon>
